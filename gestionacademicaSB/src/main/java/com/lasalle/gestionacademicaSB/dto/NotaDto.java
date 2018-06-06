@@ -36,7 +36,7 @@ public class NotaDto {
    private Long materia_id;
     
    @Range
-   private int idPersona;
+   private Long idPersona;
    
    @Temporal(TemporalType.TIMESTAMP)
    @CreatedDate
@@ -73,11 +73,11 @@ public class NotaDto {
 	  this.materia_id = materia_id;
    }
 
-   public int getIdPersona() {
+   public Long getIdPersona() {
 	  return idPersona;
    }
 
-   public void setIdPersona(int idPersona) {
+   public void setIdPersona(Long idPersona) {
 	  this.idPersona = idPersona;
    }
 

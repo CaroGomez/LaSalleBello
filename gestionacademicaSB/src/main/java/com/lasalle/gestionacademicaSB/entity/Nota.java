@@ -30,7 +30,7 @@ public class Nota {
    private Long materia_id;
    
    @Column
-   private int idPersona;
+   private Long idPersona;
    
    @Column(nullable = false, updatable = false)
    @Temporal(TemporalType.TIMESTAMP)
@@ -66,11 +66,11 @@ public class Nota {
 	  this.materia_id = materia_id;
    }
 
-   public int getIdPersona() {
+   public Long getIdPersona() {
 	  return idPersona;
    }
 
-   public void setIdPersona(int idPersona) {
+   public void setIdPersona(Long idPersona) {
 	  this.idPersona = idPersona;
    }
 
