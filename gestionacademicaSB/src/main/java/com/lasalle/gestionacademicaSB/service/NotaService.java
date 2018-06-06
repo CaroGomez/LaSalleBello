@@ -22,9 +22,11 @@ import java.util.stream.Collectors;
  *
  * @author Alexis Herrera
  */
+@Service
 public class NotaService {
    
    private static final Logger LOGGER = LoggerFactory.getLogger(NotaService.class);
+   
    private NotaRepository notaRepository;
    
    @Autowired

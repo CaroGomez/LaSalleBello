@@ -37,7 +37,7 @@ public class NotaController {
         return notaService.update(notaDTO);
     }
 
-    @GetMapping("/nota/")
+    @GetMapping("/notas/")
     public List<NotaDto> findAll() {
         return notaService.findAll();
     }
